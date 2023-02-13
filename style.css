@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    letter-spacing:0.3px ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: rgb(70,42,42);
+    
+}
+
+h1 {
+    text-align:center;
+    color:green;
+    padding:20px;
+}
+
+
+nav {
+    
+    display: grid;
+    place-items:center;
+}
+
+nav ul{
+    list-style-type: none ;
+}
+
+nav ul a {
+    display:inline-block;
+    padding:20px;
+    text-decoration: none;
+    color:black;
+    transition:0.2s ease-in;
+    font-size: 18px;
+}
+
+nav ul a:hover {
+    background-color: green;
+    color:white;
+}
+
+
+
+.productHolder {
+    display: flex;
+}
+
+
+.card {
+    cursor:pointer;
+    display:flex;
+    background: white;
+    flex-direction: column;
+    min-width:200px;
+    max-width:300px;
+    text-align:center ;
+    min-height:370px;
+    border-radius: 1rem;
+    margin:1.5rem;
+    transition: 0.3s;
+
+}
+
+.productHolder {
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.cardText {
+    margin:0.5rem;
+}
+
+.categoryText {
+    font-weight:400;
+    opacity:0.7;
+}
+
+.brandText {
+    color:#4287f5;
+}
+
+
+.priceText {
+    font-size: large;
+}
+
+.offerText {
+    font-size: small;
+}
+
+.btn {
+    height: 30px;
+    background-color:white;
+    color:blue;
+    margin-top:20px;
+    width:60px;
+
+}
+
+.quantity {
+    margin-top: 20px;
+}
+
+
+.container {
+    
+    color: white;
+    border-radius: 15px;
+}
+
+
+.card-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card-3 {
+    display: flex;
+    justify-content: space-between;
+}
